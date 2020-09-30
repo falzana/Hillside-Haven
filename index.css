@@ -1,0 +1,279 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  //CSS
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  //CSS
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //CSS
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //CSS
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) <link href="https://fonts.googleapis.com/css?family=Bellota|Caveat|Lobster|Ma+Shan+Zheng|PT+Serif|Satisfy|Varela+Round&display=swap" rel="stylesheet"> body {
+  width: 100%;
+  font-size: 17px;
+  color: #e6c3ac;
+  overflow-x: hidden;
+  background-color: #3d3d3d;
+}
+
+#mainNavbar {
+  font-family: "PT Serif", serif;
+  font-size: 1.3rem;
+  color: white;
+  width: 100%;
+  background-color: #383737;
+}
+
+#title {
+  font-family: "PT Serif", serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: "PT Serif", serif;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.7;
+  margin-top: 150%;
+  padding-top: 2%;
+  text-align: left;
+  display: block;
+  color: #888383;
+}
+
+.line {
+  border-top: 6px solid #c27f51;
+  border-collapse: 30%;
+}
+
+/*///slide images///*/
+
+.carousel {
+  width: 100%;
+}
+
+/*/----welcome message----/*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300, 700);
+.snip1581 {
+  font-family: "Poppins:400,700", Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    transparent 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    transparent 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #a58e7c;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+  -webkit-transform: scale(1.3) rotate(5deg);
+  transform: scale(1.3) rotate(5deg);
+}
+
+/*Cards*/
+.card {
+}
+
+/* /image-contact/*/
+
+#image-contact {
+  width: 100%;
+  width: 60%;
+  margin-top: 10%;
+  margin-left: 5%;
+  float: left;
+}
+
+/*contact*/
+
+.contact-title {
+  float: right;
+  width: 100%;
+  width: 30%;
+  text-align: center;
+  background: linear-gradient(rgba(10, 0, 50, 0.5), rgba(10, 0, 50, 0.5)),
+    url("");
+  background-size: cover;
+  margin-top: 5%;
+  margin-right: 2%;
+  background-position: center;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.contact-title p {
+  color: white;
+  font-size: 100%;
+  margin-left: 40%;
+}
+
+form {
+  margin-top: 2%;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 20%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2% solid gray;
+  color: #fff;
+  font-size: 40%;
+  margin-bottom: 1%;
+}
+
+input {
+  height: 30%;
+}
+
+form .submit {
+  background: #ff5722;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2%;
+  height: 60%;
+  padding-bottom: 1%;
+}
+
+/*//google map//*/
+.map-container {
+  width: 100%;
+   {
+    background: url("photo/pic 1.jpeg") no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    font-size: 1.3em;
+  }
+}
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.table-borderless {
+  background: url("photo/24.JPG") no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  font-size: 1.3em;
+}
+
+
